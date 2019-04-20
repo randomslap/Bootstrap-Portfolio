@@ -1,145 +1,145 @@
 html {
-    font-family: "Nova Flat";
+	font-family: "Nova Flat";
 }
 
 .row {
-    color: white !important;
-    font-family: "Nova Flat" !important;
+	color: white !important;
+	font-family: "Nova Flat" !important;
 }
 
 #myVideo {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%; 
-    min-height: 100%;
-    z-index: -1;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	z-index: -1;
 }
 
 .navbar-custom {
-    background-color: #8bd8bd;
-    font-family: "Nova Flat";
-    white-space: nowrap;
-    width: 100%;
+	background-color: #8bd8bd;
+	font-family: "Nova Flat";
+	white-space: nowrap;
+	width: 100%;
 }
 
 body {
-    width: 100% !important;
+	width: 100% !important;
 }
 
 h1 {
-    color: white;
-    margin: 2.5px 0px 0px 0px;
-    font-family: "Nova Flat";
+	color: white;
+	margin: 2.5px 0px 0px 0px;
+	font-family: "Nova Flat";
 }
 
 h2 {
-    padding: 30px 0px 10px 0px;
-    font-family: "Nova Flat";
-    color: white;
+	padding: 30px 0px 10px 0px;
+	font-family: "Nova Flat";
+	color: white;
 }
 
 p {
-    background-color: rgba(0,0,0,0.5);
-    border-radius: 10px;
-    color: white;
-    padding: 10px;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+	color: white;
+	padding: 10px;
 }
 
 img {
-    padding: 10px;
+	padding: 10px;
 }
 
 nav {
-    padding: 0px !important;
+	padding: 0px !important;
 }
 
-a {
-    color: white;
-    padding: 20px 10px 20px 10px !important;
-    margin: 0px .5px 0px .5px !important;
+a.nav-link {
+	color: white;
+	padding: 20px 10px 20px 10px !important;
+	margin: 0px 0.5px 0px 0.5px !important;
 }
 
-a:visited {
-    color: white;
+a.nav-link:visited {
+	color: white;
 }
 
-a:hover {
-    color:  white;
-    background-color: #243665;
-    transition-property: all;
-    transition-duration: 0.5s;
-    transition-timing-function: ease-in;
-    transition-delay: 0s;
+a.nav-link:hover {
+	color: white;
+	background-color: #243665;
+	transition-property: all;
+	transition-duration: 0.5s;
+	transition-timing-function: ease-in;
+	transition-delay: 0s;
 }
 
 .buttonPortfolio {
-    border: 5px;
-    border-style: solid;
-    border-color: #8bd8bd;
-    border-radius: 10px;
-    background-color: rgba(0,0,0,0.5);
-    margin: 10px;
-    height: 200px;
-    width: 250px;
-    color: white;
+	border: 5px;
+	border-style: solid;
+	border-color: #8bd8bd;
+	border-radius: 10px;
+	background-color: rgba(0, 0, 0, 0.5);
+	margin: 10px;
+	height: 200px;
+	width: 250px;
+	color: white;
 }
 
 .buttonPortfolio:hover {
-    background-color: #243665;
-    color: #8bd8bd;
-    transition-property: all;
-    transition-duration: 0.5s;
-    transition-timing-function: ease-in;
-    transition-delay: 0s;
+	background-color: #243665;
+	color: #8bd8bd;
+	transition-property: all;
+	transition-duration: 0.5s;
+	transition-timing-function: ease-in;
+	transition-delay: 0s;
 }
 
 .fixed {
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
-    z-index: 99;
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0;
+	z-index: 99;
 }
 
 .sticky {
-    width: 100%;
+	width: 100%;
 }
 
 .contactInputs {
-    width: 100%;
-    font-family: "Nova Flat";
-    border-radius: 5px;
+	width: 100%;
+	font-family: "Nova Flat";
+	border-radius: 5px;
 }
 
 .contact {
-    background-color: rgba(0,0,0,0.5);
-    border: 5px;
-    border-style: solid;
-    border-radius: 10px;
-    border-color: #8bd8bd;
-    padding: 20px 0px 30px 0px;
-    margin: 0px -15px 0px -15px;
+	background-color: rgba(0, 0, 0, 0.5);
+	border: 5px;
+	border-style: solid;
+	border-radius: 10px;
+	border-color: #8bd8bd;
+	padding: 20px 0px 30px 0px;
+	margin: 0px -15px 0px -15px;
 }
 
 #buttonSubmit {
-    border: 2px;
-    border-style: solid;
-    border-color: #8bd8bd;
-    border-radius: 5px;
-    background-color: rgba(0,0,0,0.5);
-    height: 100%;
-    width: 100%;
-    color: white;
-    margin-top: 10px;
-    padding: 10px;
-    font-family: "Nova Flat";
+	border: 2px;
+	border-style: solid;
+	border-color: #8bd8bd;
+	border-radius: 5px;
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 100%;
+	width: 100%;
+	color: white;
+	margin-top: 10px;
+	padding: 10px;
+	font-family: "Nova Flat";
 }
 
 #buttonSubmit:hover {
-    background-color: #243665;
-    color: #8bd8bd;
-    transition-property: all;
-    transition-duration: 0.5s;
-    transition-timing-function: ease-in;
-    transition-delay: 0s;
+	background-color: #243665;
+	color: #8bd8bd;
+	transition-property: all;
+	transition-duration: 0.5s;
+	transition-timing-function: ease-in;
+	transition-delay: 0s;
 }
